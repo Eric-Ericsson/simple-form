@@ -42,6 +42,7 @@ const InputField = ({ type, name, label, value, onChange, setDoB }) => {
           value={value}
           selected={value}
           isClearable
+          maxDate={new Date(new Date())}
           showPopperArrow={false}
           placeholderText="01/01/2000"
           required
