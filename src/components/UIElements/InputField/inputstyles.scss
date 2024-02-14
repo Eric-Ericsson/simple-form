@@ -1,0 +1,11 @@
+.inputfield-cnt {
+    @apply relative w-full;
+
+    .radio-cnt {
+        @apply flex items-center space-x-2;
+
+        .radio-input-cnt {
+            @apply mt-3;
+        }
+    }
+}
